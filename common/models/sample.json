@@ -1,0 +1,22 @@
+{
+  "name": "sample",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "uniqueAndRequired": {
+      "type": "string",
+      "required": true
+    },
+    "myOtherProp": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
